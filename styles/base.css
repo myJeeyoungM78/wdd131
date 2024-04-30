@@ -1,6 +1,6 @@
 body {
 	
-	font-optical-sizing: auto;
+	/* font-optical-sizing: auto; */
 	font-family: "Lora", serif;
 	font-style: normal;
 	font-weight: 700;
@@ -123,10 +123,10 @@ p {
     padding: 5px 10px 0 0;
 }
 
-img {
+/* img {
     overflow-clip-margin: content-box;
     overflow: clip;
-}
+} */
 
 div {
     display: block;
