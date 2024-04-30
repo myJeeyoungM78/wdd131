@@ -15,7 +15,7 @@ body {
 /* mobile **************************/
 header {
 	/* background-color: #bbb; */
-	background-color: #7f5539;
+	background-color: #606c38;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
@@ -41,25 +41,27 @@ main {
 
 h1 {
 	font-family: "platypi", serif;
-	font-size: 3em;
+	font-size: 3.5em;
 	font-weight: 400;
 	text-align: center;
-    margin-block-start: 0.67em;
+    margin-block-start: 0.5em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
-	color: #adc178;
+	color: #fefae0;
+	text-shadow: #283618 10px 10px;
 }
 
 nav {
-	background-color: #a98467;
-	margin: 0 auto;
+	background-color: #283618;
+	/* background-size: 1%; */
+	/* margin:  auto; */
 	display: flex;
 	justify-content: space-around;
 	/* max-width: 800px; */
-	unicode-bidi: isolate;
+	/* unicode-bidi: isolate; */
 }
 
 /* nav ul {
@@ -69,43 +71,50 @@ nav {
 nav a {
 	/* display: block; */
 	/* color: #fff; */
-	color: #f0ead2;
+	color: #fefae0;
 	text-align: center;
 	font-size: 1.5em;
 	padding: 1em;
 	text-decoration: none;
+	width: 100%;
+	/* text-shadow: #fefae0 0px 2px; */
 }
 
 nav a:hover {
 	/* text-decoration:overline; */
-    border: 2px solid #f0ead2;
+    border: 2px solid #fefae0;
+	color: #fefae0;
+	transition: color 0.3s;
 }
+
 
 .card {
     text-align: center;
     padding: 0 25px 25px 25px;
-    background-color: #f0ead2;
+    background-color: #fefae0;
     margin: 10px;
-    border: #adc178 2px solid;
+    border: #bc6c25 1px solid;
     border-radius: 0.5em;
 }
 
 h2 {
     display: block;
     font-size: 2em;
-	color: #6c584c;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+	color: #283618;
+    margin-block-start: 1em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
     font-weight: bold;
     unicode-bidi: isolate;
-	background-color: #adc178;
+	background-color: #dda15e;
+	border-radius: 2em;
+
 }
 
 p {
 	font-size: 1.2em;
-	color: #a98467;
+	/* color: #283618; */
 }
 /* 
 .card div {
@@ -140,12 +149,15 @@ section {
 
 h4 {
 	font-size: 1.5em;
-	color: #6c584c;
-	margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	/* background-color:#adc178; */
+	color: #283618;
+	margin-block-start: 1em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+	background-color:#dda15e;
+	border-radius: 2em;
+	height: 1.5em;
+	
 	/* padding: 5px; */
 }
 
@@ -160,17 +172,17 @@ h4 {
 .flex a{
 	font-size: 1.4em;
 	line-height: 1.5em;
-	color: #a98467;
+	color: #606c38;
 }
 
 footer {
     text-align: center;
     font-weight: 400;
-	background-color: #6c584c;
+	background-color: #bc6c25;
 }
 
 footer p {
-	color: #f0ead2;
+	color: #fefae0;
 	line-height: 2em;
 }
 
@@ -183,6 +195,7 @@ footer {
 @media (min-width: 640px) {
 	nav ul {
 		display: flex;
+		justify-content: center;
 	}
 	nav ul li {
 		flex: 1 1 100%;
