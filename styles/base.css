@@ -91,7 +91,7 @@ nav a:hover {
 .card {
     text-align: center;
     padding: 0 25px 25px 25px;
-    background-color: #fefae0;
+    /* background-color: #fefae0; */
     margin: 10px;
     border: #bc6c25 1px solid;
     border-radius: 0.5em;
@@ -193,11 +193,13 @@ footer {
 
 /* Larger Views ******************************/
 @media (min-width: 640px) {
-	nav ul {
+	nav a {
 		display: flex;
 		justify-content: center;
 	}
 	nav ul li {
 		flex: 1 1 100%;
+		display: flex;
+		justify-content: center;
 	}
 }
