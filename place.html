@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Jeeyoung Madsen</title>
+    <meta name="author" content="Jeeyoung Madsen" />
+    <meta name="description" content="WDD 131- Dynamic Web Fundamentals - Jeeyoung Madsen - Country Page" />
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>SOUTH KOREA</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+            <source srcset:"images/seoul.webp" media="(min-width: 724px)">
+            <source srcset:"images/seoul.webp" media="(mix-width: 448px)">
+            <img src="images/seoul.webp" alt="image of seoul" width="1248" height="682">
+            </picture>
+        </div>
+        <div class="data" id="data">
+            <h2>Data</h2>
+
+            <p><string>Area: </string></p>
+            <p>100,413 km</p>
+            <p><string>Population:</string></p>
+            <p>51.6 million</p>
+            <string>Capital:</string>
+            <p>Seoul</p>
+            <p><string>Languages:</string></p>
+            <p>Korean</p>
+            <p><string>Currency:</string></p>
+            <p>South Korean won (KRW)</p>
+            <p><string>Time Zone:</string></p>
+            <p>KST(UTC+9)</p>
+            <p><string>Calling Code: </string></p>
+            <p>+82</p>
+            <p><string>Internet TLD:</string></p>
+            <p>.kr</p>
+
+        </div>
+        <hr>
+        <div class="data" id="weather">
+            <h2>Weather </h2>
+            <img src="" alt="" width="" height="">
+            <p>Tempature: </p>
+            <p><span id="tempature">106</span>&#176;F</p>
+            <p><strong>Conditions:</strong></p>
+            <p>Sunny</p>
+            <p><strong>Wind:</strong></p>
+            <p><span id="wind">4.9</span>mph</p>
+            <p><strong>Wind Chill: </strong></p>
+            <p id="windChill"></p>
+
+        </div>
+    </main>
+    <footer>
+        <p>@
+            <span id="currentyear"></span>
+            <!-- <i class="icon U+1F340"></i> -->
+            | Jeeyoung Madsen | South Korea
+        </p>
+        <p>Last Modified: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>
