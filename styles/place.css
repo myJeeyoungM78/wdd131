@@ -14,9 +14,6 @@ body {
     background-color: var(--main-background-color);
 }
 
-/* header {
-    height: ;
-} */
 
 header, footer {
     text-align: center;
@@ -26,6 +23,7 @@ header, footer {
 
 h1 {
     color: white;
+    font-size: 3rem;
 }
 
 
@@ -49,6 +47,10 @@ h2 {
 
 #weather {
     grid-column: 1 / 3;
+}
+.weather img {
+    max-width: 25px;
+    margin: 10px 0px;
 }
 
 .hero img {
