@@ -82,21 +82,21 @@ h1 {
 
 
 
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 760px) {
     
     .temple-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
-}
+} */
 
-@media (mix-width: 640px) {
+/* @media (mix-width: 640px) {
           
     
     .temples {
         grid-template-columns: 1fr;
     }
 
-}
+} */
 
 /* header, main, footer {
     max-width: 640px;
