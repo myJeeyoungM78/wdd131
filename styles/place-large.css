@@ -14,12 +14,12 @@
     }
 
     .data h2 {
-        /* text-align: left; */
         background-color: var(--section-head-background-color);
         color: #000;
         width: 10rem;
         padding: 1rem;
-        margin-left: 0rem;
+        margin-left: -2rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
 
