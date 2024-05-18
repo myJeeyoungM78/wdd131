@@ -16,23 +16,31 @@ document.getElementById('currentyear').innerText = currentYear;
 document.getElementById('lastModified').innerText = document.lastModified;
 
 //set windchill
-const tempature = document.querySelector("#tempature").textContent;
-const wind = document.querySelector("#wind").textContent;
+const temp = document.querySelector("#temperature").textContent;
+const windSpeed = document.querySelector("#wind").textContent;
 const windChill = document.querySelector("#windChill").textContent;
 
-// function calculateWindChill(temperature, windSpeed) {
-
-//     return 35.74 + (0.6215 * temp) - (35.75 * windSpeed**0.16) + (0.4275 * temp * windSpeed**0.16);
-// }
-
-
-
-if (tempature <= 50 && wind > 3) {
-    calculatedCill = calculateWindChill(tempature, wind);
-    windChill.textContent = `${Math.round(calculateWindChill(tempature, wind))}°F`;
-} 
-
-else {
-    windChill.textContent = 'NaN';
+function calculateWindChill(temp, windSpeed) {
+    if (temp <= 50 && windSpeed > 3) {
+        calculatedCill = calculateWindChill(temp, windSpeed);
+        windChill.textContent = `${Math.round(calculateWindChill(temp, windSpeed))}°F`;
+        return 35.74 + (0.6215 * temp) - (35.75 * windSpeed**0.16) + (0.4275 * temp * windSpeed**0.16);
+    } 
+    
+    else {
+        return 'NaN';
+    }
+    
 }
+
+
+
+// if (tempature <= 50 && wind > 3) {
+//     calculatedCill = calculateWindChill(tempature, wind);
+//     windChill.textContent = `${Math.round(calculateWindChill(tempature, wind))}°F`;
+// } 
+
+// else {
+//     windChill.textContent = 'NaN';
+// }
 
