@@ -75,6 +75,22 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
+    {
+      templeName: "Boise Idaho",
+      location: "Boise, Idaho, United States",
+      dedicated: "1984, May, 25",
+      area: 35868,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/1-Boise-Idaho-Temple-1968984.jpg"
+    },
+    {
+      templeName: "Durban South Africa",
+      location: "Durban, South Africa",
+      dedicated: "2020, February, 16",
+      area: 19860,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/400x250/1-8b3f1b895a7c92ee66c2d0c7e78606f75f0d0cc8.jpg"
+    },
     // Add more temple objects here...
   ];
 
