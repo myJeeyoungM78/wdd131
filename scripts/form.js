@@ -24,28 +24,35 @@ function addProductOptions(){
         product_select.appendChild(option);
     });
 }
-    // const productSelect = document.getElementById('productName');
-    
-    // products.forEach(product => {
-    //     let option = document.createElement('option');
-    //     option.value = product.id;
-    //     option.textContent = product.name;
-    //     productSelect.appendChild(option);
-    // });
 
-    
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     let reviewCount = localStorage.getItem('reviewCount');
-//     reviewCount = reviewCount ? parseInt(reviewCount) + 1 : 1;
-//     localStorage.setItem('reviewCount', reviewCount);
+// document.addEventListener('DOMContentLoaded', () => {
+//     const reviewCountElement = document.getElementById('reviewCount');
+//     const reviewForm = document.getElementById('reviewForm');
 
-//     document.getElementById('reviewCount').textContent = reviewCount;
+//     let reviewCount = localStorage.getItem('reviewCount') || 0;
 
-//     window.location.href = 'review.html';
+//     if (reviewCountElement) {
+//         reviewCountElement.textContent = reviewCount;
+//     }
+
+//     if (reviewForm) {
+//         reviewForm.addEventListener('submit', (event) => {
+//             event.preventDefault(); 
+
+//             reviewCount++;
+            
+//             localStorage.setItem('reviewCount', reviewCount);
+
+//             if (reviewCountElement) {
+//                 reviewCountElement.textContent = reviewCount;
+//             }
+
+//             window.location.href = 'review.html';
+//         });
+//     }
 // });
-
 
 document.addEventListener('DOMContentLoaded', function() {
     // Set footer copyright year
