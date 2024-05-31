@@ -1,124 +1,140 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+    
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobby Play</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Jeeyoung Madsen</title>
+    <meta name="author" content="Jeeyoung Madsen" />
+    <meta name="description" content="WDD 131- Dynamic Web Fundamentals - Jeeyoung Madsen - siteplan." />
+
     <link rel="stylesheet" href="styles/siteplan.css">
-    <script src="scripts/siteplan.js" defer></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lora:ital,wght@0,400..700;1,400..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap" rel="stylesheet">
-</head>
+  </head>
 
-<body>
-    <div id="content">
+  <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/MyHobby-logos_white1.png" alt="crochet hobby logo">
-        </a>
-        <nav>
-            <a href="index.html">HOME</a>
-            <!-- <a href="skillshare.html">SKILL SHARE</a> -->
-            <a href="findsupplies.html">FIND SUPPLIES</a>
-            <!-- <a href="site-plan.html">RATES/DATES</a> -->
-            <a href="contactus.html">CONTACT US</a>
-        </nav>
+      <h1>MyHobby-Start Your New Hobby</h1>
+      <h2>[Jeeyoung Madsen]</h2>
+      <h2>WDD 131 - Dynamic Web Fundamentals</h2>
     </header>
+    <main>
 
-    <div id="hobby">
-        <div id="hobby-box">
-            <img id="hobby-img" src="images/basket-with-threads.png" alt="crochet hobby">
+      <!-- ------------------------Steps 2-3------------------------------ -->
+      <hr />
+      <h2>Overview</h2>
+      <h3>Purpose</h3>
+      <p>I'm planning a hobby sharing website. 
+        The main page is designed to be an attractive advertising page with useful information for your hobby. A child page where you can sell knitted products from the same hobby. 
+        I'm thinking of a child page where you can purchase knitting supplies.]</p>  <!-- change this -->
+
+      <hr />
+
+      <h3>
+        Color Palette
+      </h3>
+      <p>Palette URL:</p> 
+      <a href="https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f" 
+        target="_blank">https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f</a>
+
+
+      <table class="colors">
+        <tr>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Accent 1</th>
+          <th>Accent 2</th>
+        </tr>
+        <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
+        <tr>
+          <td class="primary">[#5e503f]</td>
+          <td class="secondary">[#c6ac8f]</td>
+          <td class="accent1">[#22333b]</td>
+          <td class="accent2"></td>
+        </tr>
+      </table>
+
+      <hr>
+      <h3>
+        Typography
+      </h3>
+      
+      <h4>
+        Heading Font: [Satisfy] 
+      </h4>
+      <h4>
+        Paragraph Font: [Josefin Sans]  <!-- change this -->
+      </h4>
+    
+      <hr>
+      <h2>
+        Scenarios
+      </h2>
+      <div class="sitemap">
+        <div class="sm-home">
+          Home
         </div>
-            <section id="hobby-msg">
-                <h1 class="home-title">Start Your New Hobby</h1>
-                <h4>Crocheting is a fun hobby</h4>
-                <div class='button-box'>
-                    <a class='book' href="contactus.html">Book Now</a>
-                </div>
-            </section>
-    </div>
-    <!-- <div class="bg-text">Enjoy Your Hobby</div> -->
-
-    <main class="home-grid">
-        <div id="background-home"></div>
-            <section class="home">  
-            <img class="brown-img" src="images/brownmaking.jpg" alt="start new hobby">
-            <div class="dropdown">
-                <button class="dropbtn">About Us</button>
-                    <div class="dropdown-content">
-                        <a href="skillshare.html">Free</a>
-                        <a href="findsupplies.html">Store</a>
-                        <a href="contactus.html">Book</a>
-                    </div>
-            </div>
-            </section>
-            <section class="home-text">
-                <h2>Tips to Start New Hobby</h2>
-                <p>Crocheting is a fun hobby that allows you to make beautiful, unique, and practical creations. 
-                   Plus, it is good for you! Once you have a handle on a few different stitches and techniques, crocheting can be meditative and relaxing, 
-                   which can reduce stress and anxiety. However, there is a learning curve for any new hobby. 
-                   So if you are picking up your crochet hook and yarn for the first time, do not get discouraged. 
-                   Here are a few key tips for how to crochet for beginners.</p>
-           </section>
-        
-            <div id="information"></div>
-            <section class="sharing-card">
-                <div class="container">
-                <img class="card-img" src="images/young-people-crochet.png" alt="two young men crochet">
-                <div class='middle'>
-                    <div class='text'>
-                    <a href="skillshare.html">Class</a>
-                </div>
-                </div>
-            </section>
-            <section class="supplies-card">
-            <div class="container">
-            <img class="card-img" src="images/spools-multi-colored-thread.png" alt="colored thread">
-                <div class='middle'>
-                <div class='text'>
-                <a href="findsupplies.html">Link</a>
-                </div>
-                </div>
-            </div>  
-            </section>
-            <section class="contact-card">
-            <div class="container"> 
-            <img class="card-img" src="images/kitten-playing-with-ball-wool_188544-7879.jpg" alt="kitten contact us">
-                <div class='middle'>
-                <div class='text'> 
-                <a href="contactus.html">Help</a>
-                </div>
-                </div>
-            </div>
-            </section>   
-        </main>
-
-    <footer>
-        <p>@
-            <span id="currentyear"></span>
-            | Jeeyoung Madsen | UTAH
-        </p>
-        <p>Last Modified: 
-            <span id="lastModified"></span>
-        </p>
-        <!-- <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p> -->
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
+        <div class="sm-page2">
+          Skillshare <!-- change this -->
         </div>
-    </footer>
-    </div>
-</body>
+        <div class="sm-page3">
+          Findsupplies  <!-- change this -->
+        </div>
+
+        <div class="top">
+          &nbsp;
+        </div>
+        <div class="left">
+          &nbsp;
+        </div>
+        <div class="right">
+          &nbsp;
+        </div>
+
+      </div>
+
+
+      <h3>Skillshare</h3>
+      <p>
+        <!-- [Written copy for the Page 2 here] -->
+        Sharing New Hobby
+        If you are just starting to crochet, 
+        do not expect to create a masterpiece in yarn on your first try! 
+        Relax and follow our tips for crochet for beginners.
+
+        You can certainly pick up crocheting by yourself, 
+        but it can be extremely helpful to learn alongside others—no matter their level of experience. 
+        If you surround yourself with more knowledgeable crocheters, you can learn from their work and ask for their feedback. 
+        On the other hand, learning among other beginners can be helpful as well, as you work through new stitches and troubleshoot projects together. 
+      </p>
+
+      <h3>Findsupplies</h3>
+      <p>
+        <!-- [Written copy for the Page 3 here] -->
+        Crochet for Beginners:
+        Until you start to get the hang of crochet and know you want to pursue it as a hobby, 
+        you may be hesitant to buy crochet patterns. 
+        Fortunately, you can find hundreds of free crochet patterns online for all kinds of creations, 
+        from scarves to cute amigurumi dolls. You will likely need to spend a little time learning 
+        how to read the patterns—they are typically written with several different abbreviations and terms—but once you know the lingo, 
+        you can create nearly any type of project. Try browsing craft blogs or doing a simple Google search, 
+        and you will find a range of unique, modern crochet patterns—free! 
+      </p>
+
+      <hr>
+      <h2>
+        Wireframes
+      </h2>
+
+      <h3>Large</h3>
+      <img src="images/wireframe_desktopView.png" alt="wireframe desktip view">
+
+      <h3>Small</h3>
+      <img src="images/wireframe_mobileView.png" alt="wireframe mobile view.png">
+
+      
+    </main>
+  </body>
+
 </html>
