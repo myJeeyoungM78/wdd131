@@ -17,21 +17,38 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// let aboutUs = [
-//     {
-//        freeClass: 'skillshare',
-//        shareUrl: 'skillshare.html'
-//     },
-//     {
-//         store: 'findsuplies',
-//         findUrl: 'findsupplies.html'
-//     },
-//     {
-//         contact: 'contactUs',
-//         bookUrl: 'contactus.html'
-//     }
-// ] 
+const aboutUs = [
+    {
+        contact: 'skillshare',
+        link: 'skillshare.html'
+    },
+    {
+        contact: 'findsuplies',
+        link: 'findsupplies.html'
+    },
+    {
+        contact: 'contactUs',
+        link: 'contactus.html'
+    }
+] 
 
+aboutUs.forEach(contact => {
+    myProfile.dropdownContent.push(contact);
+});
+
+aboutUs.dropdownContent.forEach(dropdownContent => {
+    let dt = document.createElement('dt');
+    let dd = document.createElement('dd')
+    dt.textContent = dropdownContent.contact;
+    dd.textContent = dropdownContent.Url;
+    document.querySelector('.dropdownContent').appendChild(dt);
+    document.querySelector('.dropdownContent').appendChild(dd);
+}
+);
+
+
+
+console.log(myProfile.placesLived);
 aboutUs.forEach()
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
