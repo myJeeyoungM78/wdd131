@@ -17,10 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-let bookNow = {
+// let aboutUs = [
+//     {
+//        freeClass: 'skillshare',
+//        shareUrl: 'skillshare.html'
+//     },
+//     {
+//         store: 'findsuplies',
+//         findUrl: 'findsupplies.html'
+//     },
+//     {
+//         contact: 'contactUs',
+//         bookUrl: 'contactus.html'
+//     }
+// ] 
 
-}
-
+aboutUs.forEach()
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
         // get the form so we can read what was entered in it.
